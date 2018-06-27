@@ -2,6 +2,7 @@ require 'pry'
 require_relative 'character.rb'
 require_relative 'movie.rb'
 
+
 vision = Character.new("vision", "vision")
 tony = Character.new("Tony Stark", "Iron Man")
 petey = Character.new("Peter Parker", "Spider-Man")
@@ -51,6 +52,5 @@ bruce.appear_in_movie(avengers_2)
 bruce.appear_in_movie(infinity_war)
 
 
-
-
-Pry.start
+binding.pry
+true

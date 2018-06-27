@@ -36,6 +36,10 @@ class Mammal < Animal
     super(species, "mammal", size, age, environment, cuteness, num_legs)
   end
 
+  def speak
+    "Hi"
+  end
+
   def give_birth
     "I DID NOT LAY AN EGG BECAUSE I AM A MAMMAL"
   end
